@@ -1,11 +1,11 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "hydrapp',
+  "short_name": "hydrapp",
+  "theme_color": "#E5E5E5",
+  "background_color": "#E5E5E5",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/wtf-webpack-starter/",
+  "scope": "hydrapp",
   "start_url": "/wtf-webpack-starter/",
   "icons": [
     {
