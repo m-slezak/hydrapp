@@ -15,16 +15,12 @@ module.exports = merge(common, {
           MiniCssExtractPlugin.loader,
           "css-loader",
           "postcss-loader",
-          "sass-loader"
+          "sass-loader",
         ],
       },
       {
         test: /\.css$/i,
-        loader: [
-          MiniCssExtractPlugin.loader,
-          "css-loader",
-          "postcss-loader"
-        ],
+        loader: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader"],
       },
     ],
   },

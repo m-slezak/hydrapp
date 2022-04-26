@@ -1,13 +1,15 @@
 @import "~normalize.css";
-
-@import "_variables";
-@import "modules/hello.scss";
+@import "../scss/modules/app.scss";
+@import "../scss/modules/glass.scss";
+@import "../scss/modules/buttons.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
 body {
-  background: $wtf;
+  background: #3767ad;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  font-family: "Roboto", sans-serif;
 }
