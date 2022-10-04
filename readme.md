@@ -2,6 +2,6 @@
 
 ## Water counter
 
-Count how many glass of water per day you drink. 
+Count how many glasses of water you drin per day.
 
 
